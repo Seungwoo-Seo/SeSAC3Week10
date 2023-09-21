@@ -22,8 +22,28 @@ class Network {
 
     static let shared = Network()
 
-    // 아무 타입이나 들어오면 안되고 Decodable을 채택한 타입만 들어 올 수 있게!!
+    func requestConvertible<T: Decodable>(
+        type: T.Type,
+        api: Router,
+        completion: @escaping (Result<T, SeSACError>) -> ()
+    ) {
+        AF
+            .request(api)
+            .validate()
+            .responseDecodable(of: type) { response in
+                switch response.result {
+                case .success(let result):
+                    completion(.success(result))
 
+                case .failure(_):
+                    let statusCode = response.response?.statusCode ?? 500
+                    guard let error = SeSACError(rawValue: statusCode) else {return}
+                    completion(.failure(error))
+                }
+            }
+    }
+
+    // 아무 타입이나 들어오면 안되고 Decodable을 채택한 타입만 들어 올 수 있게!!
     func request<T: Decodable>(
         type: T.Type,
         api: UnsplashAPI,

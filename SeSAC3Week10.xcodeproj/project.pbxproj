@@ -19,6 +19,8 @@
 		574485132AB93CD2008EEADA /* NetworkBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574485122AB93CD2008EEADA /* NetworkBasic.swift */; };
 		574485152AB964AE008EEADA /* UnsplashAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574485142AB964AE008EEADA /* UnsplashAPI.swift */; };
 		574485172AB97441008EEADA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574485162AB97441008EEADA /* Network.swift */; };
+		57CD16FD2ABA764A00BF6D07 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD16FC2ABA764A00BF6D07 /* Router.swift */; };
+		57CD16FF2ABA9AA600BF6D07 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD16FE2ABA9AA600BF6D07 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		574485122AB93CD2008EEADA /* NetworkBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBasic.swift; sourceTree = "<group>"; };
 		574485142AB964AE008EEADA /* UnsplashAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAPI.swift; sourceTree = "<group>"; };
 		574485162AB97441008EEADA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		57CD16FC2ABA764A00BF6D07 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		57CD16FE2ABA9AA600BF6D07 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 				574484F42AB92938008EEADA /* AppDelegate.swift */,
 				574484F62AB92938008EEADA /* SceneDelegate.swift */,
 				574484F82AB92938008EEADA /* ViewController.swift */,
+				57CD16FE2ABA9AA600BF6D07 /* ViewModel.swift */,
 				574484FA2AB92938008EEADA /* Main.storyboard */,
 				574484FD2AB9293A008EEADA /* Assets.xcassets */,
 				574484FF2AB9293A008EEADA /* LaunchScreen.storyboard */,
@@ -86,6 +91,7 @@
 				574485122AB93CD2008EEADA /* NetworkBasic.swift */,
 				574485142AB964AE008EEADA /* UnsplashAPI.swift */,
 				574485162AB97441008EEADA /* Network.swift */,
+				57CD16FC2ABA764A00BF6D07 /* Router.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -174,8 +180,10 @@
 				574484F92AB92938008EEADA /* ViewController.swift in Sources */,
 				574485152AB964AE008EEADA /* UnsplashAPI.swift in Sources */,
 				574485172AB97441008EEADA /* Network.swift in Sources */,
+				57CD16FD2ABA764A00BF6D07 /* Router.swift in Sources */,
 				574485132AB93CD2008EEADA /* NetworkBasic.swift in Sources */,
 				574484F52AB92938008EEADA /* AppDelegate.swift in Sources */,
+				57CD16FF2ABA9AA600BF6D07 /* ViewModel.swift in Sources */,
 				574484F72AB92938008EEADA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
