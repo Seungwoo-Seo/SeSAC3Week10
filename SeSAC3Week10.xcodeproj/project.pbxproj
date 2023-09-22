@@ -21,6 +21,8 @@
 		574485172AB97441008EEADA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574485162AB97441008EEADA /* Network.swift */; };
 		57CD16FD2ABA764A00BF6D07 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD16FC2ABA764A00BF6D07 /* Router.swift */; };
 		57CD16FF2ABA9AA600BF6D07 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD16FE2ABA9AA600BF6D07 /* ViewModel.swift */; };
+		57CD17012ABBCB4800BF6D07 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CD17002ABBCB4800BF6D07 /* SearchViewController.swift */; };
+		57DC00362ABBE110002CD436 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DC00352ABBE110002CD436 /* SearchCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		574485162AB97441008EEADA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		57CD16FC2ABA764A00BF6D07 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		57CD16FE2ABA9AA600BF6D07 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		57CD17002ABBCB4800BF6D07 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		57DC00352ABBE110002CD436 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				574484FD2AB9293A008EEADA /* Assets.xcassets */,
 				574484FF2AB9293A008EEADA /* LaunchScreen.storyboard */,
 				574485022AB9293A008EEADA /* Info.plist */,
+				57CD17002ABBCB4800BF6D07 /* SearchViewController.swift */,
+				57DC00352ABBE110002CD436 /* SearchCollectionViewCell.swift */,
 			);
 			path = SeSAC3Week10;
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 				574484F92AB92938008EEADA /* ViewController.swift in Sources */,
 				574485152AB964AE008EEADA /* UnsplashAPI.swift in Sources */,
 				574485172AB97441008EEADA /* Network.swift in Sources */,
+				57CD17012ABBCB4800BF6D07 /* SearchViewController.swift in Sources */,
+				57DC00362ABBE110002CD436 /* SearchCollectionViewCell.swift in Sources */,
 				57CD16FD2ABA764A00BF6D07 /* Router.swift in Sources */,
 				574485132AB93CD2008EEADA /* NetworkBasic.swift in Sources */,
 				574484F52AB92938008EEADA /* AppDelegate.swift in Sources */,
